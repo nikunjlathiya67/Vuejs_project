@@ -1,0 +1,62 @@
+.BookHereMain .custom-select{
+    background: transparent;
+    border: 1px solid #fff;
+    color: #fff;
+}
+.BookHereForm label{
+    color: #fff !important;
+}
+.custom-select option{
+    color: #000;
+}
+.BookHereTitle{
+    text-align: center;
+    padding: 50px 0;
+}
+.BookHereTitle h3 {
+    font-family: 'Cookie', cursive;
+    font-size: 68px;
+    color: #fff;
+    line-height: 30px;
+}
+.BookHereForm input,
+.b-form-btn-label-control.form-control{
+    background-color: transparent;
+}
+.btn.h-auto svg{
+    fill: #fff;
+}
+.BookHereForm input::placeholder{
+    color: #fff;
+}
+.BookHereForm .form-control:focus{
+    background: transparent;
+    color: #fff;
+    box-shadow: none;
+    border-color: #fff;
+}
+.form-submit{
+    max-width: 250px;
+}
+.form-wrap{
+    display: grid;
+    padding: 10px 15px;
+}
+.BookHereMain{
+    padding: 0 15px 70px 15px;
+}
+button.btn.form-submit.btn-outline-light {
+    margin-top: 30px;
+}
+@media (max-width: 575px) and (min-width: 320px) {
+    .BookHereForm input, .b-form-btn-label-control.form-control {
+        margin: auto;
+    }
+    .form-wrap{
+        display: block;
+        text-align: center;
+    }
+    .BookHereForm label {
+        width: 100%;
+    }
+}

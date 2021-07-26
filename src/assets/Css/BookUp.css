@@ -1,0 +1,6 @@
+.BookUpBg{
+    background: url(../Image/GallaryImg.png) no-repeat top fixed;
+    width: 100%;
+    height: 45vh;
+    background-size: cover;
+}

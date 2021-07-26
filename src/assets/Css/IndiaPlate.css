@@ -1,0 +1,100 @@
+.NewPlateBg{
+    background: url(../Image/Place\ Your\ Design\ Here\ \(Double\ Click\ to\ Edit\)\ \(2\).png) no-repeat top fixed;
+    width: 100%;
+    background-size: cover;
+    padding: 100px 0;
+}
+.IndiaPlateMain{
+    background: rgba(256, 256, 256, 0.82);
+}
+.IndiaPlateTitle{
+    text-align: center;
+    padding: 50px 0;
+}
+.IndiaPlateTitle h3{
+    font-family: 'Cookie', cursive;
+    font-size: 68px;
+    color: #2c3a42;
+    line-height: 30px;
+}
+.IndiaPlateTitle h2{
+    font-family: 'Raleway', sans-serif;
+    color: #ad6c12;
+    font-size: 60px;
+}
+.IndiaPlateImg {
+    padding: 0;
+}
+.IndiaPlateImg img {
+    width: 100%;
+}
+.IndiaPlateCard{
+    margin: auto;
+    text-align: center;
+    color: #2c3a42;
+    padding: 0 30px;
+}
+.IndiaPlateCard h5{
+    text-transform: uppercase;
+    font-weight: 700;
+    font-weight: 700;
+}
+.IndiaPlateCard p{
+    font-size: 18px;
+}
+.IndiaPlateCard h6{
+    font-weight: 700;
+}
+@media (max-width: 1140px) and (min-width: 768px) {
+    .IndiaPlateTitle h2 {
+        font-size: 38px;
+    }
+    .IndiaPlateTitle h3 {
+        font-size: 46px;
+    }
+    .IndiaPlateCard p{
+        font-size: 16px;
+    }
+    .IndiaPlateCard h5 {
+        font-size: 1.1rem;
+    }
+    .IndiaPlateCard {
+        padding: 0 15px;
+    }
+}
+@media (max-width: 767px) and (min-width: 576px) {
+    .IndiaPlateTitle  h2 {
+        font-size: 34px;
+    }
+    .IndiaPlateTitle  h3 {
+        font-size: 40px;
+    }
+}
+@media (max-width: 575px) and (min-width: 425px) {
+    .IndiaPlateImg {
+        padding: 0 70px;
+    }
+    .IndiaPlateCard {
+        padding: 10px 70px;
+    }
+    .IndiaPlateTitle  h2 {
+        font-size: 34px;
+    }
+    .IndiaPlateTitle  h3 {
+        font-size: 40px;
+    }
+}
+@media (max-width: 424px) and (min-width: 320px) {
+    .IndiaPlateImg {
+        padding: 0 30px;
+    }
+    .IndiaPlateCard {
+        padding: 10px 30px;
+    }
+    .IndiaPlateTitle  h2 {
+        font-size: 34px;
+    }
+    .IndiaPlateTitle  h3 {
+        font-size: 40px;
+    }
+}

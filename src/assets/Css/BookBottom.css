@@ -1,0 +1,6 @@
+.bookbottombg{
+    background: url(../Image/GallaryImg1.png) no-repeat top fixed;
+    width: 100%;
+    height: 45vh;
+    background-size: cover;
+}
